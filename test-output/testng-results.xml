@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-01T19:19:23 IST" name="Default suite" finished-at="2022-07-01T19:19:30 IST" duration-ms="6585">
+    <groups>
+    </groups>
+    <test started-at="2022-07-01T19:19:23 IST" name="Default test" finished-at="2022-07-01T19:19:30 IST" duration-ms="6585">
+      <class name="restAssuredPack.PostRequestCU">
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:restAssuredPack.PostRequestCU@72cde7cc]" started-at="2022-07-01T19:19:25 IST" name="createUser" data-provider="userdetailssupplier" finished-at="2022-07-01T19:19:29 IST" duration-ms="3331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[my]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:restAssuredPack.PostRequestCU@72cde7cc]" started-at="2022-07-01T19:19:29 IST" name="createUser" data-provider="userdetailssupplier" finished-at="2022-07-01T19:19:29 IST" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[engg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:restAssuredPack.PostRequestCU@72cde7cc]" started-at="2022-07-01T19:19:29 IST" name="createUser" data-provider="userdetailssupplier" finished-at="2022-07-01T19:19:30 IST" duration-ms="486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:restAssuredPack.PostRequestCU@72cde7cc]" started-at="2022-07-01T19:19:30 IST" name="createUser" data-provider="userdetailssupplier" finished-at="2022-07-01T19:19:30 IST" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ht]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- restAssuredPack.PostRequestCU -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
