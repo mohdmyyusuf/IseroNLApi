@@ -9,7 +9,7 @@ public class DataSupplierClass {
 @DataProvider(name = "userdetailssupplier")
 public String[][] getUserData() throws IOException{
 		//String dataFile = "C:\\EclipseWS\\ApiTestsIseroNL\\src\\main\\java\\com\\inl\\test\\data\\DataFile.xlsx";
-		String dataFile =  System.getProperty("user.dir")+"\\src\\main\\java\\com\\inl\\test\\data\\DataFile.xlsx";
+		String dataFile =  System.getProperty("user.dir")+"\\src\\main\\java\\com\\inl\\test\\data\\DataFileApi.xlsx";
 		
 		int totalRows = XlUtilClass.getRowCount(dataFile, "Sheet1");
 		int totalCols =  XlUtilClass.getCellCount(dataFile, "Sheet1", 1);
