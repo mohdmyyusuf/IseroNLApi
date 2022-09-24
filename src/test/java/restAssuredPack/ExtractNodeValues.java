@@ -22,7 +22,7 @@ public class ExtractNodeValues {
 		 
 		JsonPath jspath = resp.jsonPath();
 		
-		System.out.println(jspath.get("data"));
+		System.out.println("");
 		 
 		
 		
